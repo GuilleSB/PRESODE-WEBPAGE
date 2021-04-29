@@ -605,3 +605,8 @@ footer {
 }
 
 
+/* Clases personalizadas */
+
+.disable-scroll {
+    overflow: hidden;
+}
