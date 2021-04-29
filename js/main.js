@@ -20,9 +20,11 @@ let semaforo = true;
 document.querySelectorAll(".hamburguer")[0].addEventListener("click",function(){
     if(semaforo){
         document.querySelectorAll(".hamburguer")[0].style.color = "#fff";
+        document.getElementsByTagName("body")[0].classList.add("disable-scroll");
         semaforo = false;
     }else{
         document.querySelectorAll(".hamburguer")[0].style.color = "#000";
+        document.getElementsByTagName("body")[0].classList.remove("disable-scroll");
         semaforo = true;
     }
     linkHeaders.classList.toggle("menudos");
