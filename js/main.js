@@ -29,3 +29,7 @@ document.querySelectorAll(".hamburguer")[0].addEventListener("click",function(){
     }
     linkHeaders.classList.toggle("menudos");
 });
+
+document.getElementsByClassName("fa-facebook-f")[0].addEventListener("click",function(){
+    window.open("https://www.facebook.com/adminpresode", "_blank");
+});
