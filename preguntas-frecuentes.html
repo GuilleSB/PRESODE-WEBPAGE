@@ -27,6 +27,25 @@
         }
 
     </style>
+
+    <!--JQUERY-->
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+  crossorigin="anonymous"></script>
+  <script>
+        $(function(){
+            $(".pregunta-frecuente").click(function(e){
+                e.preventDefault();
+                
+                if($(this).next().hasClass("hidden")){
+                    $(this).next().removeClass("hidden");
+                    return;
+                }
+                $(this).next().addClass("hidden");
+            })
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -47,7 +66,84 @@
             </section>
         </nav>
     </header>
-    
+    <section class="contenedor">
+        <section class="preguntas-frecuentes">
+            <h1>Preguntas frecuentes</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, fuga magnam sunt accusamus iusto maxime illo necessitatibus iste, architecto aperiam praesentium ea rerum possimus non unde assumenda officiis dolore dolores.</p>
+            
+            <div class="contenedor-pregunta">
+                <div class="pregunta-frecuente">
+                    <p>PREGUNTA 1</p>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="respuesta-pregunta hidden">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, magni amet possimus aut laborum ipsum maxime repellendus id in harum deserunt aspernatur ducimus recusandae quibusdam nostrum reiciendis impedit corporis magnam?
+                    Architecto vel quam provident ullam commodi dolor. Atque, natus? Harum modi atque aspernatur blanditiis. Pariatur, natus culpa commodi sit atque, sapiente repudiandae nobis maiores hic impedit consequuntur. Laboriosam, fuga quidem.
+                    A et incidunt eveniet placeat doloremque enim reiciendis sint? Ullam error similique alias temporibus soluta debitis eum minima perspiciatis iusto. Optio sapiente unde temporibus, alias maiores repellendus ratione in eveniet.
+                    Magnam, quibusdam at. Animi dignissimos velit nam eius blanditiis, modi quia laboriosam qui quaerat fuga, placeat sit eligendi tenetur dolorum aspernatur vero ducimus repellendus. Dolor rem nobis recusandae at nulla.
+                    Delectus sequi debitis minus unde eaque fugit optio reprehenderit harum nemo culpa. Voluptatum cum saepe deleniti aliquid culpa quod modi quis natus animi fuga provident, iste minus distinctio ullam autem.</p>
+                </div>
+            </div>
+
+            <div class="contenedor-pregunta">
+                <div class="pregunta-frecuente">
+                    <p>PREGUNTA 1</p>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="respuesta-pregunta hidden">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, magni amet possimus aut laborum ipsum maxime repellendus id in harum deserunt aspernatur ducimus recusandae quibusdam nostrum reiciendis impedit corporis magnam?
+                    Architecto vel quam provident ullam commodi dolor. Atque, natus? Harum modi atque aspernatur blanditiis. Pariatur, natus culpa commodi sit atque, sapiente repudiandae nobis maiores hic impedit consequuntur. Laboriosam, fuga quidem.
+                    A et incidunt eveniet placeat doloremque enim reiciendis sint? Ullam error similique alias temporibus soluta debitis eum minima perspiciatis iusto. Optio sapiente unde temporibus, alias maiores repellendus ratione in eveniet.
+                    Magnam, quibusdam at. Animi dignissimos velit nam eius blanditiis, modi quia laboriosam qui quaerat fuga, placeat sit eligendi tenetur dolorum aspernatur vero ducimus repellendus. Dolor rem nobis recusandae at nulla.
+                    Delectus sequi debitis minus unde eaque fugit optio reprehenderit harum nemo culpa. Voluptatum cum saepe deleniti aliquid culpa quod modi quis natus animi fuga provident, iste minus distinctio ullam autem.</p>
+                </div>
+            </div>
+
+            <div class="contenedor-pregunta">
+                <div class="pregunta-frecuente">
+                    <p>PREGUNTA 1</p>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="respuesta-pregunta hidden">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, magni amet possimus aut laborum ipsum maxime repellendus id in harum deserunt aspernatur ducimus recusandae quibusdam nostrum reiciendis impedit corporis magnam?
+                    Architecto vel quam provident ullam commodi dolor. Atque, natus? Harum modi atque aspernatur blanditiis. Pariatur, natus culpa commodi sit atque, sapiente repudiandae nobis maiores hic impedit consequuntur. Laboriosam, fuga quidem.
+                    A et incidunt eveniet placeat doloremque enim reiciendis sint? Ullam error similique alias temporibus soluta debitis eum minima perspiciatis iusto. Optio sapiente unde temporibus, alias maiores repellendus ratione in eveniet.
+                    Magnam, quibusdam at. Animi dignissimos velit nam eius blanditiis, modi quia laboriosam qui quaerat fuga, placeat sit eligendi tenetur dolorum aspernatur vero ducimus repellendus. Dolor rem nobis recusandae at nulla.
+                    Delectus sequi debitis minus unde eaque fugit optio reprehenderit harum nemo culpa. Voluptatum cum saepe deleniti aliquid culpa quod modi quis natus animi fuga provident, iste minus distinctio ullam autem.</p>
+                </div>
+            </div>
+
+            <div class="contenedor-pregunta">
+                <div class="pregunta-frecuente">
+                    <p>PREGUNTA 1</p>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="respuesta-pregunta hidden">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, magni amet possimus aut laborum ipsum maxime repellendus id in harum deserunt aspernatur ducimus recusandae quibusdam nostrum reiciendis impedit corporis magnam?
+                    Architecto vel quam provident ullam commodi dolor. Atque, natus? Harum modi atque aspernatur blanditiis. Pariatur, natus culpa commodi sit atque, sapiente repudiandae nobis maiores hic impedit consequuntur. Laboriosam, fuga quidem.
+                    A et incidunt eveniet placeat doloremque enim reiciendis sint? Ullam error similique alias temporibus soluta debitis eum minima perspiciatis iusto. Optio sapiente unde temporibus, alias maiores repellendus ratione in eveniet.
+                    Magnam, quibusdam at. Animi dignissimos velit nam eius blanditiis, modi quia laboriosam qui quaerat fuga, placeat sit eligendi tenetur dolorum aspernatur vero ducimus repellendus. Dolor rem nobis recusandae at nulla.
+                    Delectus sequi debitis minus unde eaque fugit optio reprehenderit harum nemo culpa. Voluptatum cum saepe deleniti aliquid culpa quod modi quis natus animi fuga provident, iste minus distinctio ullam autem.</p>
+                </div>
+            </div>
+
+            <div class="contenedor-pregunta">
+                <div class="pregunta-frecuente">
+                    <p>PREGUNTA 1</p>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="respuesta-pregunta hidden">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, magni amet possimus aut laborum ipsum maxime repellendus id in harum deserunt aspernatur ducimus recusandae quibusdam nostrum reiciendis impedit corporis magnam?
+                    Architecto vel quam provident ullam commodi dolor. Atque, natus? Harum modi atque aspernatur blanditiis. Pariatur, natus culpa commodi sit atque, sapiente repudiandae nobis maiores hic impedit consequuntur. Laboriosam, fuga quidem.
+                    A et incidunt eveniet placeat doloremque enim reiciendis sint? Ullam error similique alias temporibus soluta debitis eum minima perspiciatis iusto. Optio sapiente unde temporibus, alias maiores repellendus ratione in eveniet.
+                    Magnam, quibusdam at. Animi dignissimos velit nam eius blanditiis, modi quia laboriosam qui quaerat fuga, placeat sit eligendi tenetur dolorum aspernatur vero ducimus repellendus. Dolor rem nobis recusandae at nulla.
+                    Delectus sequi debitis minus unde eaque fugit optio reprehenderit harum nemo culpa. Voluptatum cum saepe deleniti aliquid culpa quod modi quis natus animi fuga provident, iste minus distinctio ullam autem.</p>
+                </div>
+            </div>
+            
+            
+        </section>
+    </section>
     <footer>
         <div class="partFooter">
             <img src="img/logo-presode.jpg" alt="">
@@ -76,5 +172,6 @@
     <script src="https://kit.fontawesome.com/3fcb6144e1.js" crossorigin="anonymous"></script>
     <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
+    
 </body>
 </html>
