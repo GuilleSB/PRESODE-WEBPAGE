@@ -54,3 +54,31 @@
     cursor: pointer;
     transition: ease-in-out .3s;
 }
+
+@media screen and (max-width:500px){
+    .form {
+        padding: 10px;
+    }
+    
+    .wrapper {
+        background-color: whitesmoke;
+        list-style-type: none;
+        padding: 10px;
+        border-radius: 3px;
+    }
+    .form-row {
+        display: block;
+        padding: .5em;
+    }
+    .form-row > label {
+        display: block;
+    }
+
+    .form-row > input {
+        width: 100%;
+    }
+    .form-row > textarea {
+        width: 100%;
+    }
+    
+}
